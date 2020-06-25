@@ -17,7 +17,15 @@ Support Sqlite, SqlServer</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/188867052/EntityFrameworkCore.SqlProfile</RepositoryUrl>
     <RepositoryType>https://github.com</RepositoryType>
     <PackageTags>EntityFrameworkCore SqlProfile SqlServer Api Sqlite ORM AspNetCore</PackageTags>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.0" />
